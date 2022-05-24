@@ -1,4 +1,4 @@
-<!-- HTmL file for the assignment-->
+ <!-- HTmL file for the assignment-->
 <!DOCTYPE html>
 <!--html tag for assignment-->
 <html>
@@ -10,8 +10,15 @@
     </title>
     <script>
         var alertText = "Test of the alert function"
-        alert(alertText);
+        //alert(alertText);
     </script>
+    <script src="code.js"></script>
+    <style>
+        body{
+            background-color:mediumblue;
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
@@ -36,10 +43,14 @@
     </script>
     <br>
     <br>
+    Time left before launch<br>
+    <div id="countdownDisplay">Launch not initiated</div>
+    <br>
+    <br>
     <!-- button for class-->
-    <button>Start</button>
+    <button onclick="blastoffTimerV1();">Start</button>
     <button>Stop</button>
 
-</html>
-
 </body>
+
+</html>
