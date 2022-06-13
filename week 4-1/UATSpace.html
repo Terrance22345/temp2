@@ -1,0 +1,83 @@
+ <!-- HTmL file for the assignment-->
+<!DOCTYPE html>
+<!--html tag for assignment-->
+<html>
+
+<head>
+    <!--title-->
+    <title>
+        Prof. Prater's UAT Space Page
+    </title>
+    <script>
+        var alertText = "Test of the alert function"
+        //alert(alertText);
+    </script>
+    <script src="code.js"></script>
+    <style>
+        body{
+            background-color:mediumblue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!--logo for UATSpace-->
+    <img src="UATLogo.jpg">
+    <!--text for assignment-->
+    <h1>H2 Sample text</h1>
+    <!--paragraph for the assignment-->
+    <p>
+        This is a test of the paragraph tag.
+        Can be used for more than on line of text.
+    </p>
+
+    <script>
+        //created a textValue comment
+        var textValue = "Test of document.write() function";
+        //use that textValue comment
+        document.write(textValue);
+
+        /*mltiline
+        comment*/
+    </script>
+    <br>
+    <br>
+    Time left before launch<br>
+    <div id="countdownDisplay">Launch not initiated</div>
+    <br>
+    <br>
+    <!-- button for class-->
+    <button onclick="blastoffTimerV2();">Start</button>
+    <button>Stop</button>
+    <br>
+    <br>
+    <!-- Start of craps game assigment-->
+    <h1>Craps Game!!!</h1>
+    <h2>please play!</h2>
+    <!-- Shows what you rolled-->
+    Die 1 result: <div id="die1Res">Play Craps to roll dice</div><br>
+    Die 2 result: <div id="die2Res">Play Craps to roll dice</div><br>
+    <!--Shows results-->
+    <div id="crapsRes">Game Results</div><br>
+    <br>
+    <!--Button to start playing the craps game-->
+    <button onclick="playCraps();">Play Craps</button>
+    <br>
+    <br>
+    <!-- Extra pionts for this right
+     if yes Thats great
+    else thats just cold-->
+    <!-- Just  shows  what the user will see. Exzample they will see win above and the sentence downb below-->
+    Wins<br>
+    <div id="winRes">Lets keep these Wins rolloing</div><br>
+    Loses<br>
+    <div id="loseRes">Stop Losing</div><br>
+    Rerolls<br>
+    <div id="tieRes"> Your so close Try Again</div><br>
+
+
+
+</body>
+
+</html>
